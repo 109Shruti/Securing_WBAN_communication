@@ -48,6 +48,11 @@ git clone https://github.com/109Shruti/Securing_WBAN_communication
 cd Securing_WBAN_communication  
 pip install -r requirements.txt`
 ```
+## Folder Structure
+1. **paillier.py: Manages key generation common to both encryption and decryption.**
+2. **encryption.py: Handles encryption functionality.**
+3. **decryption.py: Handles decryption functionality.**
+4. **main.py: Coordinates everything, including reading the data, encrypting it, decrypting it, and saving the results.**
 
 ## Usage
 Generate keys using the provided script:
