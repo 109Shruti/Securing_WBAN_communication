@@ -52,15 +52,15 @@ pip install -r requirements.txt`
 ## Usage
 Generate keys using the provided script:
 ```bash
-python encryption_kerpair.ipynb
+python paillier.py
 ```
 Encrypt health data stored in a CSV file:
 ```bash
-python encrypt.ipynb input.csv output.csv
+python encryption.py input.csv encrypted_b.csv.csv
 ```
 Decrypt the encrypted CSV file:
 ```bash
-python decrypt.ipynb output.csv decrypted.csv
+python decryption.py decrypted_b.csv decrypted.csv
 ```
 Make sure to replace **input.csv** and **output.csv** with the appropriate file paths.
 
