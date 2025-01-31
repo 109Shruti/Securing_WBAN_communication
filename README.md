@@ -1,4 +1,4 @@
-# Securing_WBAN_communication
+# KeyVault- Securing_WBAN_communication
 ## Overview  
 
 This repository contains research and implementation related to securing wireless Body Area Sensor Networks (WBANs) communication using advanced encryption techniques. Specifically, we focus on employing a polymorphic encryption method to encrypt CSV file health data and using the Paillier key generation method to establish secure public and private keys for data encryption and decryption.  
